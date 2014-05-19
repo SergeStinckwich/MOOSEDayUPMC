@@ -64,7 +64,7 @@ module.exports = {
     schedule: [
       {
         name: "Check-in",
-        time: "9h00"
+        time: "Thuesday, 9h30"
       },
       {
         name: "Thierry Goubier",
@@ -78,7 +78,7 @@ module.exports = {
         presentation: {
           title: "GitFileTree: a convenient Monticello workflow with Git",
           description: "GitFileTree, or, how to easily and safely integrate Pharo development in a git workflow (from Monticello/Metacello to Github without touching the command line)",
-          time: ""
+          time: "Thuesday, 10h00"
         }
       },
       {
@@ -93,16 +93,43 @@ module.exports = {
         presentation: {
           title: "Roassal2: Next Generation of Visualization Engine",
           description: "Roassal2 is a complete revamp of Roassal. It is based on Athens and Cairo for Smooth drawing and animation. Roassal2 comes with a number of API to easily build charts, geographical maps, animations.",
-          time: ""
+          time: "Thuesday, 10h30"
         }
       },
       {
+        name: "Serge Stinckwich",
+        photo: "themes/yellow-swan/img/speaker.png",
+        bio:"",
+        company:"UMMISCO (IRD/UPMC)",
+        link: {
+            href: "",
+            text: "Thuesday, 11h00"
+          },
+        presentation: {
+            title: "Process Mining and visualization with MOOSE",
+            description: "",
+            time: ""
+          }
+        },
+      {
         name: "Lunch",
-        time: "12h00"
+        time: "Thuesday, 12h00"
+      },
+      {
+        name: "Hands-On session",
+        time: "Thuesday, 14h00"
+      },
+      {
+        name: "Coffee-Break",
+        time: "Thuesday, 15h30"
+      },
+      {
+        name: "Hands-On session",
+        time: "Thuesday, 16h00"
       },
       {
         name: "Mircea Filip Lungu",
-        photo: "themes/yellow-swan/img/speaker.jpg",
+        photo: "themes/yellow-swan/img/speaker.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Software Composition Group, Berne University",
         link: {
@@ -110,11 +137,42 @@ module.exports = {
           text: "Web page"
         },
         presentation: {
-          title: "",
+          title: "Visualizing Software Corpora with Moose",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: ""
+          time: "Friday, 9h00"
         }
       },
+      {
+        name: "Leo Perard",
+        photo: "themes/yellow-swan/img/speaker.png",
+        bio:"",
+        company: "RMOD team, INRIA",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title: "Telescope",
+          description: "",
+          time: "Friday, 9h45"
+        }
+      },
+      {
+        name: "TBA",
+        photo: "themes/yellow-swan/img/speaker.png",
+        bio: "",
+        company: "Synectique",
+        link: {
+          href: "",
+          text: ""
+        },
+        presentation: {
+          title:"TBA",
+          description: "",
+          time: "Friday, 10h30"
+        }
+      },
+
       // {
       //   name: "Steve Jobs",
       //   photo: "themes/yellow-swan/img/speaker.jpg",
