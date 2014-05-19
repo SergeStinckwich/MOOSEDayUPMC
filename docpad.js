@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "MOOSEDay@UPMC 2014",
+      description: "MOOSE, Custom analyses made easy",
+      date: "June 5-6",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      // price: "Free",
+      venue: "Université Pierre and Marie Curie",
+      address: "Pierre and Marie Curie University, 4 place Jussieu",
+      city: "Paris",
+      state: "France"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Register now!",
-        link: "http://eventick.com.br"
+        link: "https://docs.google.com/forms/d/1m6f6mNMmYp6HgcEG3sVq-mVJMWnHwkNCZswAyRvOq1o/viewform"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    // forkButton: {
+    //     repository: "https://github.com/braziljs/conf-boilerplate"
+    // },
 
     // Site info
     site: {
       theme: "yellow-swan",
       url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-9711668-1"
     },
 
     // Active sections on the website
@@ -45,8 +45,7 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners'
+      'sponsors'
       // 'contact'
     ],
 
@@ -64,37 +63,37 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Check-in",
         time: "9h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Thierry Goubier",
+        photo: "themes/yellow-swan/img/thierry_goubier.jpg",
+        bio: "Thierry Goubier, currently research engineer and expert for CEA List, working on programming languages and compilers for manycores (ΣC, τC) and HPC. Previously at UBO, Curtin University Sarawak, Diponegoro University doing  logic synthesis for turbo codes, parallel programming, hypertexts and GUI framework. Graduated from Telecom Bretagne in 1992, with a MSc (94) and a PhD (1998) from University of Rennes I.",
+        company: "CEA LIST",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "",
+          text: ""
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          title: "GitFileTree: a convenient Monticello workflow with Git",
+          description: "GitFileTree, or, how to easily and safely integrate Pharo development in a git workflow (from Monticello/Metacello to Github without touching the command line)",
+          time: ""
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Alexandre Bergel",
+        photo: "themes/yellow-swan/img/alexandre_bergel.jpg",
+        bio: "Alexandre Bergel is Assistant Professor and researcher at the University of Chile. Alexandre Bergel and his collaborators carry out research in software engineering and software quality, more specifically on code profiling, testing and data visualization. Alexandre Bergel has authored over 60 articles, published in international and peer reviewed scientific forums, including the most competitive conferences and journals in the field of software engineering. Several of his research prototypes have been turned into products and adopted by major companies in the semi-conductor industry and certification of critical software systems.",
+        company: "DCC, University of Chile",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "http://www.bergel.eu/",
+          text: "Web page"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "Roassal2: Next Generation of Visualization Engine",
+          description: "Roassal2 is a complete revamp of Roassal. It is based on Athens and Cairo for Smooth drawing and animation. Roassal2 comes with a number of API to easily build charts, geographical maps, animations.",
+          time: ""
         }
       },
       {
@@ -102,88 +101,98 @@ module.exports = {
         time: "12h00"
       },
       {
-        name: "Chuck Norris",
+        name: "Mircea Filip Lungu",
         photo: "themes/yellow-swan/img/speaker.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        company: "Software Composition Group, Berne University",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "http://scg.unibe.ch/staff/mircea",
+          text: "Web page"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
+          title: "",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          time: ""
         }
       },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
+      // {
+      //   name: "Steve Jobs",
+      //   photo: "themes/yellow-swan/img/speaker.jpg",
+      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      //   company: "Apple, Inc.",
+      //   link: {
+      //     href: "http://github.com/stevie",
+      //     text: "@stevie"
+      //   },
+      //   presentation: {
+      //     title: "Presenting iPad",
+      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      //     time: "14h00"
+      //   }
+      // },
       {
         name: "Coffee-break",
         time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
       }
+      // {
+      //   name: "Mark Zuckerberg",
+      //   photo: "themes/yellow-swan/img/speaker.jpg",
+      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      //   company: "Facebook",
+      //   link: {
+      //     href: "http://twitter.com/zuck",
+      //     text: "@zuck"
+      //   },
+      //   presentation: {
+      //     title: "Revealing Facebook Secrets",
+      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      //     time: "16h00"
+      //   }
+      // },
+      // {
+      //   name: "Steve Wozniak",
+      //   photo: "themes/yellow-swan/img/speaker.jpg",
+      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      //   company: "Apple, Inc.",
+      //   link: {
+      //     href: "http://twitter.com/woz",
+      //     text: "@woz"
+      //   },
+      //   presentation: {
+      //     title: "Why do I prefer Android over iPhone",
+      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+      //     time: "17h00"
+      //   }
+
     ],
 
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "ESUG",
+        logo: "themes/yellow-swan/img/esug-logo.png",
+        url: "http://www.esug.org/"
+      },
+      {
+        name: "Object Profile",
+        logo: "themes/yellow-swan/img/object-profile-logo.png",
+        url: "http://www.objectprofile.com/"
+      },
+      {
+        name: "UMMISCO",
+        logo: "themes/yellow-swan/img/UMMISCO-logo.jpg",
+        url:"http://www.ummisco.ird.fr/"
       }
     ],
 
     // List of Partners
-    partners: [
-      {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
-      }
-    ],
+    // partners: [
+    //   {
+    //     name: "BrazilJS",
+    //     logo: "themes/yellow-swan/img/partner.png",
+    //     url: "http://braziljs.org"
+    //   }
+    // ],
 
     // Theme path
     getTheme: function() {

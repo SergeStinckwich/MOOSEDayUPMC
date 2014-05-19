@@ -1,5 +1,6 @@
 <h2 class="section-title"><%= @labels['speakers'] %></h2>
 
+<p>If you plan to do a talk send an email to : Serge dot Stinckwich AT gmail dot com</p>
 <ul class="speakers-list">
 <% for speaker in @schedule: %>
   <% if speaker.presentation: %>

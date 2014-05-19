@@ -1,6 +1,6 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
+<p itemprop="description">The aim of this 2 day conference is to bring together both researchers and practitioners that are working on software and data analysis with the <a href="http://www.moosetechnology.org/">MOOSE</a> platform. MOOSE is an open-source platform since 1996 and is supported by several research groups around the world, and is increasingly adopted in industrial projects. The MOOSEDay@UPMC 2014 conference will be a unique opportunity to exchange information and knowledge, and provide a forum for discussion of new research results, best practices and case studies.</p>
 
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
+<p>The conference will take place at <a href="http://www.upmc.fr/">Pierre and Marie Curie University</a> in Paris during June 5-6, 2014. The conference will be free.</p>
 
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p>Previous editions of this event take place in <a href="http://scg.unibe.ch/wiki/events/pharoconf-mooseday-2013">Berne in April 2013</a> and <a href="http://www.lifl.fr/~etien/MooseDay.html">Lille in December 2013</a>.</p>

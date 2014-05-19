@@ -1,0 +1,7 @@
+<h2 class="section-title"><%= @labels['attendees'] %></h2>
+<p>
+<ul>
+<li>Serge Stinckwich (UMMISCO)</li>
+<li>Thierry Goubier (CEA List)</li>
+</ul>
+</p>
