@@ -99,16 +99,16 @@ module.exports = {
       {
         name: "Serge Stinckwich",
         photo: "themes/yellow-swan/img/speaker.png",
-        bio:"",
+        bio: "Sere Stinckwich is Associate Professor and is working in the UMMISCO research team on the modeling and simulation of complex systems.",
         company:"UMMISCO (IRD/UPMC)",
         link: {
             href: "",
-            text: "Thuesday, 11h00"
+            text: ""
           },
         presentation: {
             title: "Process Mining and visualization with MOOSE",
-            description: "",
-            time: ""
+            description: "Process Mining techniques allow extracting information about processes from event logs. We will present some early work on event logs processing in MOOSE and processes visualization (Petri-Nets) with ROASSAL.",
+            time: "Thuesday, 11h00"
           }
         },
       {
@@ -116,7 +116,7 @@ module.exports = {
         time: "Thuesday, 12h00"
       },
       {
-        name: "Hands-On session",
+        name: "Hands-On Session",
         time: "Thuesday, 14h00"
       },
       {
@@ -124,14 +124,14 @@ module.exports = {
         time: "Thuesday, 15h30"
       },
       {
-        name: "Hands-On session",
+        name: "Hands-On Session",
         time: "Thuesday, 16h00"
       },
       {
         name: "Mircea Filip Lungu",
-        photo: "themes/yellow-swan/img/speaker.png",
+        photo: "themes/yellow-swan/img/mircea_lungu.jpg",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Software Composition Group, Berne University",
+        company: "Software Composition Group, University of Berne",
         link: {
           href: "http://scg.unibe.ch/staff/mircea",
           text: "Web page"
@@ -144,54 +144,50 @@ module.exports = {
       },
       {
         name: "Leo Perard",
-        photo: "themes/yellow-swan/img/speaker.png",
-        bio:"",
+        photo: "themes/yellow-swan/img/leo_perard.jpg",
+        bio :"I am a 3rd year bachelor student at the University of Lille I. I am currently doing an internship in the RMoD Team directed by Stephane Ducasse until the end of august working on dynamic visualizations for software analysis.",
         company: "RMOD team, INRIA",
         link: {
-          href: "",
-          text: ""
+          href: "https://twitter.com/PerardLeo",
+          text: "@PerardLeo"
         },
         presentation: {
-          title: "Telescope",
-          description: "",
+          title: "Telescope: building custom dynamic visualization for software analysis",
+          description: "Telescope is an API based on Roassal2 providing tools to easily create and custom dynamic visualizations for software analysis.",
           time: "Friday, 9h45"
         }
       },
       {
-        name: "TBA",
+        name: "Guillaume Larcheveque",
         photo: "themes/yellow-swan/img/speaker.png",
-        bio: "",
+        bio: "Guillaume Larchevêque is an Engineer in Synectique company specialised in providing dedicated tools for companies that have to maintain huge systems. He is responsible for the parsing and modelling infrastructure that supports many technologies.",
         company: "Synectique",
         link: {
-          href: "",
-          text: ""
+          href: "http://www.synectique.eu/",
+          text: "Web page"
         },
         presentation: {
-          title:"TBA",
-          description: "",
+          title:"Analysing industrial legacy code with tools based on MOOSE",
+          description: "Synectique, harnessing the power of meta-tools and more than 35 years of experience, offers tailored and dedicated tools specifically adapted for your needs of software analysis and enable decision making to improve software. For this purpose, Synectique have to create new importers and parsers for all kinds of data. We will present some examples of our solution and some tools we developed to facilitate parsing.",
           time: "Friday, 10h30"
         }
       },
-
-      // {
-      //   name: "Steve Jobs",
-      //   photo: "themes/yellow-swan/img/speaker.jpg",
-      //   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //   company: "Apple, Inc.",
-      //   link: {
-      //     href: "http://github.com/stevie",
-      //     text: "@stevie"
-      //   },
-      //   presentation: {
-      //     title: "Presenting iPad",
-      //     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-      //     time: "14h00"
-      //   }
-      // },
       {
-        name: "Coffee-break",
-        time: "15h00"
-      }
+        name: "Lunch",
+        time: "Friday, 12h00"
+      },
+      {
+        name: "Hands-On Session",
+        time: "Friday, 14h00"
+      },
+      {
+        name: "Coffee-Break",
+        time: "Friday, 15h30"
+      },
+      {
+        name: "Hands-On Session",
+        time: "Friday, 16h00"
+      },
       // {
       //   name: "Mark Zuckerberg",
       //   photo: "themes/yellow-swan/img/speaker.jpg",
