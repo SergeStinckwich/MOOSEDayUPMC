@@ -129,7 +129,7 @@ module.exports = {
       },
       {
         name: "Mircea Filip Lungu",
-        photo: "themes/yellow-swan/img/mircea_lungu.jpg",
+        photo: "themes/yellow-swan/img/mircea_lungu.png",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
         company: "Software Composition Group, University of Berne",
         link: {
@@ -159,7 +159,7 @@ module.exports = {
       },
       {
         name: "Guillaume Larcheveque",
-        photo: "themes/yellow-swan/img/speaker.png",
+        photo: "themes/yellow-swan/img/guillaume_larcheveque.gif",
         bio: "Guillaume Larchevêque is an Engineer in Synectique company specialised in providing dedicated tools for companies that have to maintain huge systems. He is responsible for the parsing and modelling infrastructure that supports many technologies.",
         company: "Synectique",
         link: {

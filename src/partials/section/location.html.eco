@@ -4,6 +4,8 @@
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
   <span itemprop="addressLocality"><%= @conf.city %></span>,
   <span itemprop="addressRegion"> <%= @conf.state %></span>
+<br/>
+The meeting will be organised at LIP6 research lab, in the Noguez room (26-00/101). From the Jussieu parvis, you have to go on the left and take the stairs from the pilar 26, 1st Floor, Room number 101.
 </p>
 
 <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>"></div>
